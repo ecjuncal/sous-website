@@ -486,10 +486,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/video-placeholder.jpg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
-  border: 5px solid white;
 }
 
 #hero .play-btn {
@@ -946,6 +945,39 @@ section {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+}
+
+.counts form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px 6px 15px;
+  position: relative;
+  border-radius: 50px;
+}
+
+.counts form input[type="email"] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+
+.counts form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #1acc8d;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+.counts form input[type="submit"]:hover {
+  background: #149f6e;
 }
 
 /*--------------------------------------------------------------
@@ -1625,39 +1657,6 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   color: #4be8b0;
-}
-
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px 6px 15px;
-  position: relative;
-  border-radius: 50px;
-}
-
-#footer .footer-top .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #1acc8d;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #149f6e;
 }
 
 #footer .copyright {
