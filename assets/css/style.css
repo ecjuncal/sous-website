@@ -961,7 +961,7 @@ section {
   width: calc(100% - 110px);
 }
 
-.counts form input[type="submit"] {
+.counts form input[type="button"] {
   position: absolute;
   top: 0;
   right: -2px;
@@ -976,7 +976,7 @@ section {
   border-radius: 50px;
 }
 
-.counts form input[type="submit"]:hover {
+.counts form input[type="button"]:hover {
   background: #149f6e;
 }
 
