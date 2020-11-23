@@ -948,7 +948,7 @@ section {
 }
 
 .counts form {
-  margin-top: 30px;
+  margin-top: 15px;
   background: #fff;
   padding: 6px 10px 6px 15px;
   position: relative;
@@ -958,7 +958,8 @@ section {
 .counts form input[type="email"] {
   border: 0;
   padding: 4px;
-  width: calc(100% - 110px);
+  width: 500px;
+  /* width: calc(100% - 110px); */
 }
 
 .counts form input[type="button"] {
